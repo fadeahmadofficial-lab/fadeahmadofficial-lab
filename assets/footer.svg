@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="End of transmission. Thanks for scrolling.">
+<title>End of transmission. Thanks for scrolling.</title>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="panel"><rect x="1" y="1" width="1198" height="98" rx="18"/></clipPath>
+<linearGradient id="fl" x1="40" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".3" stop-color="#22d3ee"/><stop offset=".7" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+</defs>
+<path d="M40 50H1160" stroke="url(#fl)" stroke-width="1.5"/>
+<circle r="3" fill="#a78bfa" filter="url(#glow)" opacity="0"><animateMotion path="M40 50H1160" dur="6s" begin="-0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="6s" begin="-0s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#22d3ee" filter="url(#glow)" opacity="0"><animateMotion path="M40 50H1160" dur="6s" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="6s" begin="-1.5s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#a78bfa" filter="url(#glow)" opacity="0"><animateMotion path="M40 50H1160" dur="6s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="6s" begin="-3s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#22d3ee" filter="url(#glow)" opacity="0"><animateMotion path="M40 50H1160" dur="6s" begin="-4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="6s" begin="-4.5s" repeatCount="indefinite"/></circle>
+<rect x="360" y="35" width="480" height="30" rx="15" fill="#07080b" stroke="#232835"/>
+<text x="600" y="54.5" font-family="'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#7c8498" text-anchor="middle" letter-spacing="3" >END OF TRANSMISSION · THANKS FOR SCROLLING</text>
+</svg>
